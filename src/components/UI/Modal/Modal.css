@@ -1,0 +1,57 @@
+.modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 10px 10px black;
+  left: 15%;
+  top: 10%;
+  box-sizing: border-box;
+  transition: all 0.43s ease-out;
+  border-radius: 10px;
+  min-width: 210px;
+}
+
+@media (min-width: 1010px) {
+  .modal {
+    width: 900px;
+    left: calc(50% - 450px);
+    top: 25%;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 710px) {
+  .modal {
+    width: 700px;
+    left: calc(50% - 350px);
+    top: 25%;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 510px) and (max-width: 710px) {
+  .modal {
+    width: 70%;
+    left: none;
+    top: 20%;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 510px) {
+  .modal {
+    width: 70%;
+    left: none;
+  }
+}
+
+@media (max-height: 500px) {
+  .modal {
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    padding: 0px;
+  }
+}

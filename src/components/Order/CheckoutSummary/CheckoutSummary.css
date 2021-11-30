@@ -1,0 +1,11 @@
+.checkoutSummary {
+  text-align: center;
+  /* width: 80%; */
+  margin: auto;
+}
+
+@media (min-widh: 600px) {
+  .checkoutSummary {
+    width: 500px;
+  }
+}

@@ -1,0 +1,28 @@
+.order {
+  /* width: 100%; */
+  box-shadow: 0 2px 3px rgba(5, 1, 1, 0.541);
+  border: 1px solid #eee;
+  /* margin: 10px auto; */
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 300px;
+  padding: 16px;
+  text-align: left;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #ffffffb8;
+  transition: transform 0.46s ease-out;
+}
+
+.order:hover,
+.order:active {
+  background: -webkit-linear-gradient(bottom, #703b095e -10%, #faf9f877 60%);
+  color: rgb(100, 5, 5);
+  transform: scale(1.05);
+}
+
+@media (max-height: 500px) {
+  .order {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,32 @@
+.slideDrawer {
+  position: fixed;
+  width: 280px;
+  max-width: 70%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  /* background-color: rgba(0, 0, 0, 0.295); */
+  backdrop-filter: blur(3px);
+  padding: 32px 16px;
+  box-sizing: border-box;
+  transition: transform 0.96s ease-out;
+  /* background-color: #a37c5580; */
+  background: -webkit-linear-gradient(left, #a37c55 -50%, #a37c5511 100%);
+  border-radius: 0px 50px 1000px 0px;
+  border-right: 2px solid #0000005d;
+}
+
+@media (min-width: 500px) {
+  .slideDrawer {
+    display: none;
+  }
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.close {
+  transform: translateX(-100%);
+}

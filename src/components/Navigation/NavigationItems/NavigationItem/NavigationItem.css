@@ -1,0 +1,86 @@
+.navigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.navigationItem a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.navigationItem a:not(:active):not(.active):hover {
+  /* background-color: #703b093f; */
+  /* background-color: antiquewhite; */
+  /* backdrop-filter: blur(3px); */
+  border-bottom: 2px solid #130d08a1;
+  color: black;
+  background: -webkit-linear-gradient(left, antiquewhite -50%, rgba(231, 56, 39, 0) 100%);
+  /* border-radius: 100px 200px 0px 200px; */
+}
+
+.navigationItem a:active,
+.navigationItem a.active {
+  /* background-color: #703b093f; */
+  /* background-color: antiquewhite; */
+  /* backdrop-filter: blur(3px); */
+  /* border-bottom: 2px solid #40c8695d; */
+  border: 0;
+  background: -webkit-linear-gradient(left, rgb(250 235 215) -50%, rgba(231, 56, 39, 0) 100%);
+  color: black;
+}
+
+@media (min-width: 500px) {
+  .navigationItem {
+    margin: 0;
+    /* box-sizing: border-box; */
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+
+  .navigationItem a {
+    color: white;
+    /* text-decoration: none; */
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 2px solid transparent;
+    /* box-sizing: border-box; */
+    /* display: block; */
+  }
+
+  .navigationItem a:not(:active):not(.active):hover {
+    /* background-color: #703b093f; */
+    background-color: antiquewhite;
+    /* backdrop-filter: blur(3px); */
+    border-bottom: 2px solid #703b09a1;
+    color: black;
+    border-radius: 100px 200px 0px 200px;
+  }
+
+  /* .navigationItem a:not(:active):not(.active):hover:before {
+    border: 1px solid antiquewhite;
+    width: 28px;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: calc(100% - 60px);
+  } */
+
+  .navigationItem a:active,
+  .navigationItem a.active {
+    /* background-color: #703b093f; */
+    background: antiquewhite;
+    /* backdrop-filter: blur(3px); */
+    /* border-bottom: 2px solid #40c8695d; */
+    border-bottom: 2px solid transparent;
+    color: black;
+    border-radius: 100px 200px 0px 200px;
+  }
+}

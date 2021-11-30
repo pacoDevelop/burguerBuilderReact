@@ -1,0 +1,26 @@
+.orderSummary {
+  /* text-align: center; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.orderSummaryCard {
+  box-shadow: 0 2px 3px rgba(5, 1, 1, 0.541);
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* width: 300px; */
+  padding: 16px;
+  /* text-align: center; */
+  margin: 10px;
+  width: 240px;
+  height: fit-content;
+}
+@media (max-height: 500px) {
+  .orderSummaryCard {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,43 @@
+.Auth {
+  /* margin: 25%; */
+  width: 320px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 2px 3px rgb(5, 1, 1);
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: transform 0.96s ease-out;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Auth input {
+  display: block;
+}
+.Auth h2 {
+  color: antiquewhite;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Auth h3 {
+  color: rgba(197, 41, 30, 0.712);
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (min-widtj: 600px) {
+  .Auth {
+    width: 500px;
+  }
+}
+
+.Auth:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgb(5, 1, 1);
+}

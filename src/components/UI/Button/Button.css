@@ -1,0 +1,80 @@
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 5px;
+  align-items: center;
+  margin-left: auto;
+  padding-left: auto;
+}
+
+/* .button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+.success {
+  color: #5c9210;
+}
+
+.success:hover {
+  background-color: #5c921070;
+}
+
+.singup {
+  color: #703b09a1;
+}
+
+.singup:hover {
+  background-color: #703b09a1;
+  color: wheat;
+}
+
+.login {
+  color: antiquewhite;
+  text-shadow: #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+.login:hover {
+  background-color: #f3ca9b;
+  color: #000000a3;
+  text-shadow: none;
+}
+.success:disabled {
+  color: rgba(56, 56, 56, 0.527);
+  background-color: #6d6868;
+  cursor: no-drop;
+}
+
+.danger {
+  color: #944317;
+}
+
+.danger:hover {
+  background-color: #9443174f;
+}
+
+.delete {
+  color: #942617;
+}
+
+.delete:hover {
+  background-color: #af0808bd;
+  color: white;
+}
+
+.outline {
+  margin-top: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  min-width: 120px;
+}

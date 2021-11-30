@@ -1,0 +1,44 @@
+{
+  "name": "BURGUER-BUILDER",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Aplicación de Formación",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "~5.11.13",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "startBack": "node ./srcBackend/app.js",
+    "startFull": "concurrently \"node ./srcBackend/app.js\" \"wait-on http://localhost:3010 && react-scripts start\"",
+    "build": "react-scripts build",
+    "winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "wait-on": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gretaliavts.visualstudio.com/Formacion-BurgerBuilder/_git/Formacion-BurgerBuilder"
+  },
+  "author": "fhernandez@gretalia.es",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+.contactData {
+  margin: 20px auto;
+  width: 350px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 2px 3px rgb(5, 1, 1);
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: transform 0.96s ease-out;
+}
+.contactData input {
+  display: block;
+}
+
+@media (min-widtj: 600px) {
+  .contactData {
+    width: 500px;
+  }
+}
+
+.contactData:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgb(5, 1, 1);
+}
