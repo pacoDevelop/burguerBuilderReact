@@ -35,10 +35,10 @@
     "concurrently": "^5.0.0",
     "wait-on": "^3.3.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gretaliavts.visualstudio.com/Formacion-BurgerBuilder/_git/Formacion-BurgerBuilder"
-  },
-  "author": "fhernandez@gretalia.es",
+
+
+
+
+  "author": "franciscohernandezsantos3@gmail.com",
   "license": "ISC"
 }
